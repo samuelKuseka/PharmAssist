@@ -5,15 +5,16 @@ A sales and inventory management system for local drug stores / warehouses.
 
 ```plaintext
 pharmassist/
-├── backend                # ASP.NET Core backend
+├── backend-c#             # ASP.NET Core backend
 │   ├── PharmAssist.API    # Main API project
 │   ├── appsettings.json   # Configuration file
 │   ├── Program.cs         # Entry point
 │   └── Startup.cs         # Middleware & services
-├── frontend               # Next.js frontend
-│   ├── components         # Reusable UI components
-│   ├── pages              # Next.js pages (routes)
-│   ├── public             # Static assets (images, icons)
+├── frontend-next          # Next.js frontend
+│   ├── src                # Source directory
+│   │   ├── components     # Reusable UI components
+│   │   ├── pages          # Next.js pages (routes)
+│   │   ├── public         # Static assets (images, icons)
 │   ├── next.config.js     # Next.js configuration
 │   ├── package.json       # Dependencies & scripts
 │   ├── tsconfig.json      # TypeScript configuration

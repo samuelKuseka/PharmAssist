@@ -1,16 +1,16 @@
-# PharmAssist
+# Mediflow
 A sales and inventory management system for local drug stores / warehouses.
 
 ## Repository Structure
 
 ```plaintext
 pharmassist/
-├── backend-c#             # ASP.NET Core backend
+├── backend-go             # ASP.NET Core backend
 │   ├── PharmAssist.API    # Main API project
 │   ├── appsettings.json   # Configuration file
 │   ├── Program.cs         # Entry point
 │   └── Startup.cs         # Middleware & services
-├── frontend-next          # Next.js frontend
+├── frontend-ts          # Next.js frontend
 │   ├── src                # Source directory
 │   │   ├── components     # Reusable UI components
 │   │   ├── pages          # Next.js pages (routes)
